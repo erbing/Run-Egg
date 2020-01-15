@@ -1,0 +1,75 @@
+2020-01-15 10:16:54,175 ERROR 41398 [-/127.0.0.1/-/10ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41398
+hostname: IRONMZHANG-MC0
+
+2020-01-15 10:21:16,750 ERROR 41398 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41398
+hostname: IRONMZHANG-MC0
+
+2020-01-15 10:21:18,199 ERROR 41398 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41398
+hostname: IRONMZHANG-MC0
+
+2020-01-15 10:21:19,201 ERROR 41398 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41398
+hostname: IRONMZHANG-MC0
+
+2020-01-15 10:21:21,848 ERROR 41398 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/ironman/Desktop/day/Run-Egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 41398
+hostname: IRONMZHANG-MC0
+

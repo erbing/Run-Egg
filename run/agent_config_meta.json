@@ -1,0 +1,272 @@
+{
+  "keys": "/Users/ironman/Desktop/day/Run-Egg/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "name": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "version": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "description": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "main": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "dev": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "url": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "license": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "strict": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "depth": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "env": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "level": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "logging": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "port": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/config.default.js"
+}
