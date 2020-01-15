@@ -18,3 +18,15 @@
 2020-01-15 10:22:04,301 INFO 43010 [egg-watcher] Start watching: "/Users/ironman/Desktop/day/Run-Egg/app.js"
 2020-01-15 10:22:04,301 INFO 43010 [egg-watcher:agent] watcher start success
 2020-01-15 10:22:04,313 INFO 43010 [egg:core] dump config after ready, 4ms
+2020-01-15 22:44:28,633 INFO 8601 [egg:logger] init all loggers with options: {"dir":"/Users/ironman/Desktop/day/Run-Egg/logs/run-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"run-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-15 22:44:28,644 INFO 8601 [egg:core] dump config after load, 4ms
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher] Start watching: ["/Users/ironman/Desktop/day/Run-Egg/app","/Users/ironman/Desktop/day/Run-Egg/config","/Users/ironman/Desktop/day/Run-Egg/mocks","/Users/ironman/Desktop/day/Run-Egg/mocks_proxy","/Users/ironman/Desktop/day/Run-Egg/app.js"]
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher] Start watching: "/Users/ironman/Desktop/day/Run-Egg/app"
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher] Start watching: "/Users/ironman/Desktop/day/Run-Egg/config"
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher] Start watching: "/Users/ironman/Desktop/day/Run-Egg/mocks"
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher] Start watching: "/Users/ironman/Desktop/day/Run-Egg/mocks_proxy"
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher] Start watching: "/Users/ironman/Desktop/day/Run-Egg/app.js"
+2020-01-15 22:44:28,683 INFO 8601 [egg-watcher:agent] watcher start success
+2020-01-15 22:44:28,693 INFO 8601 [egg:core] dump config after ready, 2ms
+2020-01-15 22:44:59,990 WARN 8601 [agent:development] reload worker because /Users/ironman/Desktop/day/Run-Egg/app/controller/index.js change
+2020-01-15 22:44:59,783 INFO 8601 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/ironman/Desktop/day/Run-Egg/app/controller/index.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":43883011,"size":183,"blocks":8,"atimeMs":1579099499783.0696,"mtimeMs":1579099499677.4304,"ctimeMs":1579099499677.4304,"birthtimeMs":1579054681474.711,"atime":"2020-01-15T14:44:59.783Z","mtime":"2020-01-15T14:44:59.677Z","ctime":"2020-01-15T14:44:59.677Z","birthtime":"2020-01-15T02:18:01.475Z"},"remove":false,"isDirectory":false,"isFile":true}

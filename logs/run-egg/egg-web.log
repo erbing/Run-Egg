@@ -26,3 +26,31 @@
 2020-01-15 10:22:04,907 INFO 43022 [egg:core] dump config after load, 3ms
 2020-01-15 10:22:04,919 INFO 43022 [egg-watcher:application] watcher start success
 2020-01-15 10:22:04,925 INFO 43022 [egg:core] dump config after ready, 4ms
+2020-01-15 22:44:29,162 INFO 8606 [egg:logger] init all loggers with options: {"dir":"/Users/ironman/Desktop/day/Run-Egg/logs/run-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"run-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-15 22:44:29,184 INFO 8606 [egg-multipart] stream mode enable
+2020-01-15 22:44:29,245 INFO 8606 [egg-static] starting static serve /public/ -> /Users/ironman/Desktop/day/Run-Egg/app/public
+2020-01-15 22:44:29,247 INFO 8606 [egg-security] use csrf middleware
+2020-01-15 22:44:29,248 INFO 8606 [egg-security] use methodnoallow middleware
+2020-01-15 22:44:29,249 INFO 8606 [egg-security] use noopen middleware
+2020-01-15 22:44:29,249 INFO 8606 [egg-security] use nosniff middleware
+2020-01-15 22:44:29,250 INFO 8606 [egg-security] use xssProtection middleware
+2020-01-15 22:44:29,251 INFO 8606 [egg-security] use xframe middleware
+2020-01-15 22:44:29,251 INFO 8606 [egg-security] use dta middleware
+2020-01-15 22:44:29,251 INFO 8606 [egg-security] compose 7 middlewares into one security middleware
+2020-01-15 22:44:29,259 INFO 8606 [egg:core] dump config after load, 4ms
+2020-01-15 22:44:29,269 INFO 8606 [egg-watcher:application] watcher start success
+2020-01-15 22:44:29,273 INFO 8606 [egg:core] dump config after ready, 2ms
+2020-01-15 22:45:00,492 INFO 8707 [egg:logger] init all loggers with options: {"dir":"/Users/ironman/Desktop/day/Run-Egg/logs/run-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"run-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-15 22:45:00,515 INFO 8707 [egg-multipart] stream mode enable
+2020-01-15 22:45:00,542 INFO 8707 [egg-static] starting static serve /public/ -> /Users/ironman/Desktop/day/Run-Egg/app/public
+2020-01-15 22:45:00,544 INFO 8707 [egg-security] use csrf middleware
+2020-01-15 22:45:00,544 INFO 8707 [egg-security] use methodnoallow middleware
+2020-01-15 22:45:00,545 INFO 8707 [egg-security] use noopen middleware
+2020-01-15 22:45:00,545 INFO 8707 [egg-security] use nosniff middleware
+2020-01-15 22:45:00,545 INFO 8707 [egg-security] use xssProtection middleware
+2020-01-15 22:45:00,546 INFO 8707 [egg-security] use xframe middleware
+2020-01-15 22:45:00,546 INFO 8707 [egg-security] use dta middleware
+2020-01-15 22:45:00,546 INFO 8707 [egg-security] compose 7 middlewares into one security middleware
+2020-01-15 22:45:00,553 INFO 8707 [egg:core] dump config after load, 4ms
+2020-01-15 22:45:00,565 INFO 8707 [egg-watcher:application] watcher start success
+2020-01-15 22:45:00,571 INFO 8707 [egg:core] dump config after ready, 3ms

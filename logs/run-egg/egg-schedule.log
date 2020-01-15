@@ -10,3 +10,12 @@
 2020-01-15 10:22:04,845 INFO 43022 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-01-15 10:22:04,845 INFO 43022 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-01-15 10:22:04,845 INFO 43022 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-15 22:44:29,280 INFO 8601 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20730724ms at 2020-01-16 04:30:00.004
+2020-01-15 22:44:29,280 INFO 8601 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4530720ms at 2020-01-16 00:00:00.000
+2020-01-15 22:44:29,281 INFO 8601 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4531720ms at 2020-01-16 00:00:01.001
+2020-01-15 22:44:29,184 INFO 8606 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-15 22:44:29,184 INFO 8606 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-15 22:44:29,184 INFO 8606 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-01-15 22:45:00,515 INFO 8707 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-01-15 22:45:00,515 INFO 8707 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-01-15 22:45:00,515 INFO 8707 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
