@@ -1,6 +1,15 @@
 {
   "keys": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
   "middleware": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js"
+    },
+    "root": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/config.default.js",
     "key": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/config.default.js",
@@ -138,13 +147,6 @@
     "buffer": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js"
-  },
   "env": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",
   "name": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",
   "cookies": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",
@@ -164,7 +166,8 @@
     },
     "dependencies": {
       "egg": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js"
+      "egg-scripts": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",

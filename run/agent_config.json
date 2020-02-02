@@ -145,8 +145,10 @@
       "root": "/Users/zhangge/Desktop/code/Run-Egg/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
     },
     "env": "local",
     "name": "Run-Egg",
@@ -168,7 +170,8 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
-        "egg-scripts": "^2.11.0"
+        "egg-scripts": "^2.11.0",
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",

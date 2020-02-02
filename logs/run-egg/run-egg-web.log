@@ -1,0 +1,48 @@
+2020-02-02 22:28:49,933 ERROR 45986 [-/127.0.0.1/-/5ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 45986
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-02 22:30:46,808 ERROR 46067 [-/127.0.0.1/-/14ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 46067
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-02 22:30:48,315 ERROR 46067 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 46067
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-02 22:31:09,807 ERROR 46100 [-/127.0.0.1/-/16ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 46100
+hostname: zhanggedeMacBook-Air.local
+

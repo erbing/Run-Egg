@@ -105,6 +105,7 @@
         "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/config/locales",
         "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/locales",
         "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks/config/locales",
         "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/locales",
         "/Users/zhangge/Desktop/code/Run-Egg/config/locales"
       ],
@@ -171,11 +172,22 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/zhangge/Desktop/code/Run-Egg/app/view",
+      "root": [
+        "/Users/zhangge/Desktop/code/Run-Egg/app/view"
+      ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "Run-Egg",
@@ -197,7 +209,8 @@
       },
       "dependencies": {
         "egg": "^2.15.1",
-        "egg-scripts": "^2.11.0"
+        "egg-scripts": "^2.11.0",
+        "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -498,6 +511,20 @@
       "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
       "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view",
       "version": "2.1.2"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }
