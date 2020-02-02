@@ -10,6 +10,10 @@
     "cache": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js"
   },
+  "news": {
+    "pageSize": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
+    "serverUrl": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/config.default.js",
     "key": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/config.default.js",
