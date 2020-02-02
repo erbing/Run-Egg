@@ -88,25 +88,25 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-session/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-jsonp/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-onerror/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-schedule/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/locales",
-        "/Users/ironman/Desktop/day/Run-Egg/config/locales"
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-security/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-jsonp/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-onerror/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-i18n/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-watcher/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-schedule/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-development/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/locales",
+        "/Users/zhangge/Desktop/code/Run-Egg/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +117,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -141,7 +141,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/cl/4qf_43_j1bvf9kt3kwxyyz0w0000gn/T/egg-multipart-tmp/run-egg",
+      "tmpdir": "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -164,22 +164,22 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/ironman/Desktop/day/Run-Egg/app/public",
+      "dir": "/Users/zhangge/Desktop/code/Run-Egg/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/ironman/Desktop/day/Run-Egg/app/view",
+      "root": "/Users/zhangge/Desktop/code/Run-Egg/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "env": "local",
-    "name": "run-egg",
-    "keys": "<String len: 21>",
+    "name": "Run-Egg",
+    "keys": "<String len: 26>",
     "cookies": {},
     "proxy": false,
     "maxIpsCount": 0,
@@ -188,34 +188,54 @@
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "run-egg",
+      "name": "Run-Egg",
       "version": "1.0.0",
       "description": "",
-      "main": "index.js",
+      "private": true,
+      "egg": {
+        "declarations": true
+      },
+      "dependencies": {
+        "egg": "^2.15.1",
+        "egg-scripts": "^2.11.0"
+      },
+      "devDependencies": {
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.21.0",
+        "eslint": "^5.13.0",
+        "eslint-config-egg": "^7.1.0"
+      },
+      "engines": {
+        "node": ">=10.0.0"
+      },
       "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "egg-bin dev"
+        "start": "egg-scripts start --daemon --title=egg-server-Run-Egg",
+        "stop": "egg-scripts stop --title=egg-server-Run-Egg",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "ci": {
+        "version": "10"
       },
       "repository": {
         "type": "git",
-        "url": "git+https://github.com/erbing/Run-Egg.git"
+        "url": ""
       },
-      "author": "",
-      "license": "ISC",
-      "bugs": {
-        "url": "https://github.com/erbing/Run-Egg/issues"
-      },
-      "homepage": "https://github.com/erbing/Run-Egg#readme",
-      "dependencies": {
-        "egg": "^2.26.0"
-      },
-      "devDependencies": {
-        "egg-bin": "^4.14.1"
-      }
+      "author": "zigzag",
+      "license": "MIT"
     },
-    "baseDir": "/Users/ironman/Desktop/day/Run-Egg",
-    "HOME": "/Users/ironman",
-    "rundir": "/Users/ironman/Desktop/day/Run-Egg/run",
+    "baseDir": "/Users/zhangge/Desktop/code/Run-Egg",
+    "HOME": "/Users/zhangge",
+    "rundir": "/Users/zhangge/Desktop/code/Run-Egg/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -247,7 +267,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/ironman/Desktop/day/Run-Egg/logs/run-egg",
+      "dir": "/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -255,7 +275,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "run-egg-web.log",
+      "appLogName": "Run-Egg-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -315,9 +335,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -339,8 +360,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-session",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -352,8 +373,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-security",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -365,8 +386,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-jsonp",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -378,8 +399,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-onerror",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -389,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-i18n",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -400,8 +421,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-watcher",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -411,8 +432,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-schedule",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -424,8 +445,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart",
       "version": "2.10.1"
     },
     "development": {
@@ -439,8 +460,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-development",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -452,8 +473,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -463,8 +484,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-static",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -474,8 +495,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg/config/plugin.js",
-      "path": "/Users/ironman/Desktop/day/Run-Egg/node_modules/egg-view",
+      "from": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/plugin.js",
+      "path": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view",
       "version": "2.1.2"
     }
   }

@@ -1,21 +1,6 @@
-2020-01-15 10:16:46,328 INFO 41397 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65593676ms at 2020-01-16 04:30:00.004
-2020-01-15 10:16:46,329 INFO 41397 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49393672ms at 2020-01-16 00:00:00.001
-2020-01-15 10:16:46,329 INFO 41397 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49394671ms at 2020-01-16 00:00:01.000
-2020-01-15 10:16:46,259 INFO 41398 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
-2020-01-15 10:16:46,259 INFO 41398 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
-2020-01-15 10:16:46,259 INFO 41398 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
-2020-01-15 10:22:04,932 INFO 43010 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65275072ms at 2020-01-16 04:30:00.004
-2020-01-15 10:22:04,932 INFO 43010 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49075068ms at 2020-01-16 00:00:00.000
-2020-01-15 10:22:04,932 INFO 43010 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49076068ms at 2020-01-16 00:00:01.000
-2020-01-15 10:22:04,845 INFO 43022 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
-2020-01-15 10:22:04,845 INFO 43022 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
-2020-01-15 10:22:04,845 INFO 43022 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
-2020-01-15 22:44:29,280 INFO 8601 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20730724ms at 2020-01-16 04:30:00.004
-2020-01-15 22:44:29,280 INFO 8601 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4530720ms at 2020-01-16 00:00:00.000
-2020-01-15 22:44:29,281 INFO 8601 [Timer] /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4531720ms at 2020-01-16 00:00:01.001
-2020-01-15 22:44:29,184 INFO 8606 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
-2020-01-15 22:44:29,184 INFO 8606 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
-2020-01-15 22:44:29,184 INFO 8606 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
-2020-01-15 22:45:00,515 INFO 8707 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
-2020-01-15 22:45:00,515 INFO 8707 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
-2020-01-15 22:45:00,515 INFO 8707 [egg-schedule]: register schedule /Users/ironman/Desktop/day/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-02 14:15:38,864 INFO 43927 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51261141ms at 2020-02-03 04:30:00.005
+2020-02-02 14:15:38,864 INFO 43927 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 35061136ms at 2020-02-03 00:00:00.000
+2020-02-02 14:15:38,865 INFO 43927 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35062136ms at 2020-02-03 00:00:01.001
+2020-02-02 14:15:38,607 INFO 43929 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-02 14:15:38,607 INFO 43929 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-02 14:15:38,607 INFO 43929 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
