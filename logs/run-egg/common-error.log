@@ -1,144 +1,20 @@
-2020-02-02 15:51:42,314 ERROR 43927 nodejs.ClusterClientNoResponseError: client no response in 2302460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-03 01:47:51,154 ERROR 46099 nodejs.ClusterClientNoResponseError: client no response in 5821446ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 43927
+pid: 46099
 hostname: zhanggedeMacBook-Air.local
 
-2020-02-02 18:06:07,112 ERROR 43927 nodejs.ClusterClientNoResponseError: client no response in 8024778ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-03 12:14:11,136 ERROR 46099 nodejs.ClusterClientNoResponseError: client no response in 37519162ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 43927
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 21:58:36,355 ERROR 43927 nodejs.ClusterClientNoResponseError: client no response in 11548484ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 43927
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 22:28:49,932 ERROR 45986 [-/127.0.0.1/-/5ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
-    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
-generatedMessage: false
-name: "AssertionError [ERR_ASSERTION]"
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 45986
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 22:30:46,807 ERROR 46067 [-/127.0.0.1/-/14ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
-    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
-generatedMessage: false
-name: "AssertionError [ERR_ASSERTION]"
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 46067
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 22:30:48,315 ERROR 46067 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
-    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
-generatedMessage: false
-name: "AssertionError [ERR_ASSERTION]"
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 46067
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 22:31:09,807 ERROR 46100 [-/127.0.0.1/-/16ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
-    at ContextView.[contextView#getViewEngine] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:88:5)
-    at ContextView.[contextView#render] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/lib/context_view.js:69:39)
-generatedMessage: false
-name: "AssertionError [ERR_ASSERTION]"
-code: "ERR_ASSERTION"
-actual: undefined
-expected: true
-operator: "=="
-pid: 46100
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 23:00:18,758 ERROR 46977 [-/127.0.0.1/-/19ms GET /news] nodejs.TypeError: Cannot destructure property `serverUrl` of 'undefined' or 'null'.
-    at NewsService.list (/Users/zhangge/Desktop/code/Run-Egg/app/service/news.js:5:53)
-    at NewsController.list (/Users/zhangge/Desktop/code/Run-Egg/app/controller/news.js:9:49)
-    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
-    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
-
-pid: 46977
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 23:00:31,492 ERROR 46977 [-/127.0.0.1/-/1ms GET /news] nodejs.TypeError: Cannot destructure property `serverUrl` of 'undefined' or 'null'.
-    at NewsService.list (/Users/zhangge/Desktop/code/Run-Egg/app/service/news.js:5:53)
-    at NewsController.list (/Users/zhangge/Desktop/code/Run-Egg/app/controller/news.js:9:49)
-    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
-    at Object.classControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
-    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
-    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
-    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
-    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
-    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
-
-pid: 46977
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 23:02:36,432 ERROR 47047 [-/127.0.0.1/-/5047ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
-headers: {}
-headers: {}
-    at Timeout._onTimeout (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:926:15)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ConnectionTimeoutError"
-requestId: 1
-data: undefined
-path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
-status: -2
-headers: {}
-res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5029,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
-pid: 47047
-hostname: zhanggedeMacBook-Air.local
-
-2020-02-02 23:04:55,070 ERROR 47047 [-/127.0.0.1/-/5011ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
-headers: {}
-headers: {}
-    at Timeout._onTimeout (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:926:15)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ConnectionTimeoutError"
-requestId: 2
-data: undefined
-path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
-status: -2
-headers: {}
-res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5008,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
-pid: 47047
+pid: 46099
 hostname: zhanggedeMacBook-Air.local
 
