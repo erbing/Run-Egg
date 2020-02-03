@@ -10,6 +10,10 @@
     "cache": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view/config/config.default.js"
   },
+  "news": {
+    "pageSize": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
+    "serverUrl": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js"
+  },
   "session": {
     "maxAge": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/config.default.js",
     "key": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-session/config/config.default.js",
@@ -146,6 +150,13 @@
     "preload": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/config.default.js",
     "buffer": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",
   "name": "/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg/config/config.default.js",

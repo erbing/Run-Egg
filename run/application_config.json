@@ -351,7 +351,7 @@
     "middleware": [],
     "news": {
       "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+      "serverUrl": "http://127.0.0.1:7001"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",

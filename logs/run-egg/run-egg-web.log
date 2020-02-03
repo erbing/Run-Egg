@@ -1,0 +1,58 @@
+2020-02-03 12:46:13,525 ERROR 47047 [-/127.0.0.1/-/5071ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5058,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 47047
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-03 13:14:13,194 WARN 48669 [-/127.0.0.1/-/300ms GET /news] nodejs.JSONResponseFormatError: Unexpected token G in JSON at position 0 (data json format: "GET query missing."), GET https://web-api.juejin.im/query 400 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"web-api.juejin.im:443::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:13:58 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=e1e58a4a208bca72195741a884fb2ba8159949ac964cb3e5740f00f89035177f|XjesG|XjesG; path=/; HttpOnly"]}
+headers: {"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:13:58 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=e1e58a4a208bca72195741a884fb2ba8159949ac964cb3e5740f00f89035177f|XjesG|XjesG; path=/; HttpOnly"]}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:864:7)
+    at IncomingMessage.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "JSONResponseFormatError"
+data: "GET query missing."
+path: "/query"
+status: 400
+headers: {"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:13:58 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=e1e58a4a208bca72195741a884fb2ba8159949ac964cb3e5740f00f89035177f|XjesG|XjesG; path=/; HttpOnly"]}
+res: {"status":400,"statusCode":400,"statusMessage":"Bad Request","headers":{"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:13:58 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=e1e58a4a208bca72195741a884fb2ba8159949ac964cb3e5740f00f89035177f|XjesG|XjesG; path=/; HttpOnly"]},"size":18,"aborted":false,"rt":277,"keepAliveSocket":false,"data":"GET query missing.","requestUrls":["https://web-api.juejin.im/query"],"timing":null,"remoteAddress":"139.198.11.245","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 48669
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-03 13:14:46,761 WARN 48707 [-/127.0.0.1/-/432ms GET /news] nodejs.JSONResponseFormatError: Unexpected token G in JSON at position 0 (data json format: "GET query missing."), GET https://web-api.juejin.im/query 400 (connected: true, keepalive socket: false, agent status: {"createSocketCount":19,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"web-api.juejin.im:443::::::::::::::::":18},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:14:32 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=743155a837e7deb03acb8e760501fb609b6845ac24ccb3b2c31a11c11a0765c2|XjesO|XjesO; path=/; HttpOnly"]}
+headers: {"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:14:32 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=743155a837e7deb03acb8e760501fb609b6845ac24ccb3b2c31a11c11a0765c2|XjesO|XjesO; path=/; HttpOnly"]}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/zhangge/Desktop/code/Run-Egg/node_modules/urllib/lib/urllib.js:864:7)
+    at IncomingMessage.emit (events.js:194:15)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "JSONResponseFormatError"
+data: "GET query missing."
+path: "/query"
+status: 400
+headers: {"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:14:32 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=743155a837e7deb03acb8e760501fb609b6845ac24ccb3b2c31a11c11a0765c2|XjesO|XjesO; path=/; HttpOnly"]}
+res: {"status":400,"statusCode":400,"statusMessage":"Bad Request","headers":{"server":"nginx/1.10.2","date":"Mon, 03 Feb 2020 05:14:32 GMT","transfer-encoding":"chunked","connection":"close","access-control-allow-credentials":"true","access-control-allow-methods":"GET, PUT, POST, DELETE, PATCH","access-control-allow-origin":"*","access-control-allow-headers":"Content-Type,X-Agent,X-Token,X-Legacy-Token,X-Legacy-Uid,X-Legacy-Device-Id,X-Legacy-New-Token,X-Request-Id","access-control-max-age":"86400","set-cookie":["QINGCLOUDELB=743155a837e7deb03acb8e760501fb609b6845ac24ccb3b2c31a11c11a0765c2|XjesO|XjesO; path=/; HttpOnly"]},"size":18,"aborted":false,"rt":174,"keepAliveSocket":false,"data":"GET query missing.","requestUrls":["https://web-api.juejin.im/query"],"timing":null,"remoteAddress":"139.198.11.245","remotePort":443,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 48707
+hostname: zhanggedeMacBook-Air.local
+
