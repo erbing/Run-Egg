@@ -155,3 +155,33 @@ hostname: zhanggedeMacBook-Air.local
 2020-02-03 15:41:48,360 INFO 50637 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangge/Desktop/code/Run-Egg/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12970256,"size":920,"blocks":8,"atimeMs":1580715708000,"mtimeMs":1580715708000,"ctimeMs":1580715708000,"birthtimeMs":1580654895000,"atime":"2020-02-03T07:41:48.000Z","mtime":"2020-02-03T07:41:48.000Z","ctime":"2020-02-03T07:41:48.000Z","birthtime":"2020-02-02T14:48:15.000Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-02-03 15:42:04,359 INFO 50637 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangge/Desktop/code/Run-Egg/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12970256,"size":824,"blocks":8,"atimeMs":1580715724000,"mtimeMs":1580715724000,"ctimeMs":1580715724000,"birthtimeMs":1580654895000,"atime":"2020-02-03T07:42:04.000Z","mtime":"2020-02-03T07:42:04.000Z","ctime":"2020-02-03T07:42:04.000Z","birthtime":"2020-02-02T14:48:15.000Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-02-03 15:42:04,563 WARN 50637 [agent:development] reload worker because /Users/zhangge/Desktop/code/Run-Egg/app/service/news.js change
+2020-02-03 19:11:59,112 ERROR 50637 nodejs.ClusterClientNoResponseError: client no response in 1964228ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 50637
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-04 12:09:25,741 ERROR 50637 nodejs.ClusterClientNoResponseError: client no response in 60985797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 50637
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-04 12:24:11,592 ERROR 50637 nodejs.ClusterClientNoResponseError: client no response in 845643ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 50637
+hostname: zhanggedeMacBook-Air.local
+

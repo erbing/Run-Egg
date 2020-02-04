@@ -76,3 +76,33 @@ name: "ClusterClientNoResponseError"
 pid: 49393
 hostname: zhanggedeMacBook-Air.local
 
+2020-02-03 19:11:59,110 ERROR 50637 nodejs.ClusterClientNoResponseError: client no response in 1964228ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 50637
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-04 12:09:25,609 ERROR 50637 nodejs.ClusterClientNoResponseError: client no response in 60985797ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 50637
+hostname: zhanggedeMacBook-Air.local
+
+2020-02-04 12:24:11,576 ERROR 50637 nodejs.ClusterClientNoResponseError: client no response in 845643ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 50637
+hostname: zhanggedeMacBook-Air.local
+
