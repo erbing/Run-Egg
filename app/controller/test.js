@@ -6,7 +6,8 @@ class TestController extends Controller {
     async index() {
         const { ctx, app, config, service, logger } = this;
         const obj = await ctx.service.test.index();
-        ctx.body = 'test' + obj.id;
+        const upID = ctx.helper.upperCase(obj.id);
+        ctx.body = 'test' + upID;
     }
 }
 
