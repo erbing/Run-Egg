@@ -155,3 +155,33 @@ hostname: IRONMZHANG-MB0
 2020-02-05 18:33:10,326 WARN 69573 [agent:development] reload worker because /Users/zhangge/Desktop/code/Run-Egg/app/controller/test.js change
 2020-02-05 18:33:10,078 INFO 69573 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangge/Desktop/code/Run-Egg/app/controller/test.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13030605,"size":363,"blocks":8,"atimeMs":1580898790000,"mtimeMs":1580898790000,"ctimeMs":1580898790000,"birthtimeMs":1580890163000,"atime":"2020-02-05T10:33:10.000Z","mtime":"2020-02-05T10:33:10.000Z","ctime":"2020-02-05T10:33:10.000Z","birthtime":"2020-02-05T08:09:23.000Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-02-05 18:33:10,125 INFO 69573 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/zhangge/Desktop/code/Run-Egg/app/controller/test.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":13030605,"size":363,"blocks":8,"atimeMs":1580898790000,"mtimeMs":1580898790000,"ctimeMs":1580898790000,"birthtimeMs":1580890163000,"atime":"2020-02-05T10:33:10.000Z","mtime":"2020-02-05T10:33:10.000Z","ctime":"2020-02-05T10:33:10.000Z","birthtime":"2020-02-05T08:09:23.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-02-06 11:59:04,245 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 59409041ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 69573
+hostname: IRONMZHANG-MB0
+
+2020-02-06 13:39:43,061 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 5996996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 69573
+hostname: IRONMZHANG-MB0
+
+2020-02-06 14:53:17,071 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 4353485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 69573
+hostname: IRONMZHANG-MB0
+
