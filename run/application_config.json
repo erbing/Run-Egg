@@ -352,7 +352,8 @@
       "toLowerCase"
     ],
     "toLowerCase": {
-      "time": 4000
+      "time": 4000,
+      "enable": false
     },
     "news": {
       "pageSize": 5,

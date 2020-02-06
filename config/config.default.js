@@ -20,7 +20,8 @@ module.exports = appInfo => {
 
     // 配置中间件 配置
     config.toLowerCase = {
-        time: 4000
+        time: 4000,
+        enable: false
     };
 
     // add your user config here
