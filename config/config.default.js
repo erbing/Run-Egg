@@ -6,37 +6,42 @@
  * @param {Egg.EggAppInfo} appInfo app info
  */
 module.exports = appInfo => {
-  /**
+    /**
      * built-in config
      * @type {Egg.EggAppConfig}
      **/
-  const config = (exports = {});
+    const config = (exports = {});
 
-  // use for cookie sign key, should change to your own and keep security
-  config.keys = appInfo.name + '_1580623825916_8866';
+    // use for cookie sign key, should change to your own and keep security
+    config.keys = appInfo.name + '_1580623825916_8866';
 
-  // add your middleware config here
-  config.middleware = [];
+    // add your middleware config here
+    config.middleware = ['toLowerCase'];
 
-  // add your user config here
-  const userConfig = {
-    // myAppName: 'egg',
-  };
+    // 配置中间件 配置
+    config.toLowerCase = {
+        time: 4000
+    };
 
-  config.view = {
-    defaultViewEngine: 'nunjucks',
-    mapping: {
-      '.tpl': 'nunjucks',
-    },
-  };
+    // add your user config here
+    const userConfig = {
+        // myAppName: 'egg',
+    };
 
-  config.news = {
-    pageSize: 5,
-    serverUrl: 'http://127.0.0.1:7001',
-  };
+    config.view = {
+        defaultViewEngine: 'nunjucks',
+        mapping: {
+            '.tpl': 'nunjucks'
+        }
+    };
 
-  return {
-    ...config,
-    ...userConfig,
-  };
+    config.news = {
+        pageSize: 5,
+        serverUrl: 'http://127.0.0.1:7001'
+    };
+
+    return {
+        ...config,
+        ...userConfig
+    };
 };

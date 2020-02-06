@@ -348,7 +348,12 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "middleware": [
+      "toLowerCase"
+    ],
+    "toLowerCase": {
+      "time": 4000
+    },
     "news": {
       "pageSize": 5,
       "serverUrl": "http://127.0.0.1:7001"
