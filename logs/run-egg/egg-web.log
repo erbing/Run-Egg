@@ -809,3 +809,7 @@
 2020-02-06 18:31:21,535 INFO 23773 [egg:core] dump config after load, 8ms
 2020-02-06 18:31:21,553 INFO 23773 [egg-watcher:application] watcher start success
 2020-02-06 18:31:21,566 INFO 23773 [egg:core] dump config after ready, 10ms
+2020-02-07 12:01:52,171 WARN 23773 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-02-07 12:01:52,210 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-07 20:02:29,310 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-07 23:49:55,622 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
