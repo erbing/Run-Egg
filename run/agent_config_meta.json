@@ -1,6 +1,10 @@
 {
   "keys": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
   "middleware": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
+  "toLowerCase": {
+    "time": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
+    "enable": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js"
+  },
   "view": {
     "defaultViewEngine": "/Users/zhangge/Desktop/code/Run-Egg/config/config.default.js",
     "mapping": {

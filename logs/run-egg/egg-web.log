@@ -4,3 +4,283 @@
 2020-02-10 13:07:03,916 INFO 23773 [-/127.0.0.1/-/20ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
 2020-02-10 13:07:03,932 INFO 23773 [-/127.0.0.1/-/44ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
 2020-02-10 13:57:37,241 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-11 00:07:57,643 INFO 7667 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:07:57,682 INFO 7667 [egg-multipart] stream mode enable
+2020-02-11 00:07:57,875 INFO 7667 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:07:57,878 INFO 7667 [egg-security] use csrf middleware
+2020-02-11 00:07:57,881 INFO 7667 [egg-security] use methodnoallow middleware
+2020-02-11 00:07:57,883 INFO 7667 [egg-security] use noopen middleware
+2020-02-11 00:07:57,885 INFO 7667 [egg-security] use nosniff middleware
+2020-02-11 00:07:57,887 INFO 7667 [egg-security] use xssProtection middleware
+2020-02-11 00:07:57,889 INFO 7667 [egg-security] use xframe middleware
+2020-02-11 00:07:57,891 INFO 7667 [egg-security] use dta middleware
+2020-02-11 00:07:57,891 INFO 7667 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:07:57,919 INFO 7667 [egg:core] dump config after load, 9ms
+2020-02-11 00:07:57,941 INFO 7667 [egg-watcher:application] watcher start success
+2020-02-11 00:07:57,959 INFO 7667 [egg:core] dump config after ready, 16ms
+2020-02-11 00:08:53,072 INFO 7819 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:08:53,118 INFO 7819 [egg-multipart] stream mode enable
+2020-02-11 00:08:53,288 INFO 7819 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:08:53,292 INFO 7819 [egg-security] use csrf middleware
+2020-02-11 00:08:53,294 INFO 7819 [egg-security] use methodnoallow middleware
+2020-02-11 00:08:53,296 INFO 7819 [egg-security] use noopen middleware
+2020-02-11 00:08:53,298 INFO 7819 [egg-security] use nosniff middleware
+2020-02-11 00:08:53,300 INFO 7819 [egg-security] use xssProtection middleware
+2020-02-11 00:08:53,302 INFO 7819 [egg-security] use xframe middleware
+2020-02-11 00:08:53,304 INFO 7819 [egg-security] use dta middleware
+2020-02-11 00:08:53,304 INFO 7819 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:08:53,337 INFO 7819 [egg:core] dump config after load, 15ms
+2020-02-11 00:08:53,354 INFO 7819 [egg-watcher:application] watcher start success
+2020-02-11 00:08:53,361 INFO 7819 [egg:core] dump config after ready, 5ms
+2020-02-11 00:09:25,191 INFO 7920 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:09:25,235 INFO 7920 [egg-multipart] stream mode enable
+2020-02-11 00:09:25,410 INFO 7920 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:09:25,416 INFO 7920 [egg-security] use csrf middleware
+2020-02-11 00:09:25,418 INFO 7920 [egg-security] use methodnoallow middleware
+2020-02-11 00:09:25,420 INFO 7920 [egg-security] use noopen middleware
+2020-02-11 00:09:25,422 INFO 7920 [egg-security] use nosniff middleware
+2020-02-11 00:09:25,423 INFO 7920 [egg-security] use xssProtection middleware
+2020-02-11 00:09:25,425 INFO 7920 [egg-security] use xframe middleware
+2020-02-11 00:09:25,427 INFO 7920 [egg-security] use dta middleware
+2020-02-11 00:09:25,427 INFO 7920 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:09:25,456 INFO 7920 [egg:core] dump config after load, 17ms
+2020-02-11 00:09:25,477 INFO 7920 [egg-watcher:application] watcher start success
+2020-02-11 00:09:25,488 INFO 7920 [egg:core] dump config after ready, 7ms
+2020-02-11 00:09:26,788 INFO 7946 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:09:26,820 INFO 7946 [egg-multipart] stream mode enable
+2020-02-11 00:09:26,858 INFO 7946 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:09:26,862 INFO 7946 [egg-security] use csrf middleware
+2020-02-11 00:09:26,863 INFO 7946 [egg-security] use methodnoallow middleware
+2020-02-11 00:09:26,864 INFO 7946 [egg-security] use noopen middleware
+2020-02-11 00:09:26,865 INFO 7946 [egg-security] use nosniff middleware
+2020-02-11 00:09:26,865 INFO 7946 [egg-security] use xssProtection middleware
+2020-02-11 00:09:26,866 INFO 7946 [egg-security] use xframe middleware
+2020-02-11 00:09:26,866 INFO 7946 [egg-security] use dta middleware
+2020-02-11 00:09:26,866 INFO 7946 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:09:26,879 INFO 7946 [egg:core] dump config after load, 5ms
+2020-02-11 00:09:26,898 INFO 7946 [egg-watcher:application] watcher start success
+2020-02-11 00:09:26,910 INFO 7946 [egg:core] dump config after ready, 9ms
+2020-02-11 00:13:24,028 INFO 8541 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:13:24,077 INFO 8541 [egg-multipart] stream mode enable
+2020-02-11 00:13:24,255 INFO 8541 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:13:24,260 INFO 8541 [egg-security] use csrf middleware
+2020-02-11 00:13:24,262 INFO 8541 [egg-security] use methodnoallow middleware
+2020-02-11 00:13:24,264 INFO 8541 [egg-security] use noopen middleware
+2020-02-11 00:13:24,266 INFO 8541 [egg-security] use nosniff middleware
+2020-02-11 00:13:24,268 INFO 8541 [egg-security] use xssProtection middleware
+2020-02-11 00:13:24,270 INFO 8541 [egg-security] use xframe middleware
+2020-02-11 00:13:24,272 INFO 8541 [egg-security] use dta middleware
+2020-02-11 00:13:24,272 INFO 8541 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:13:24,302 INFO 8541 [egg:core] dump config after load, 13ms
+2020-02-11 00:13:24,317 INFO 8541 [egg-watcher:application] watcher start success
+2020-02-11 00:13:24,328 INFO 8541 [egg:core] dump config after ready, 6ms
+2020-02-11 00:20:22,879 INFO 9453 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:20:22,941 INFO 9453 [egg-multipart] stream mode enable
+2020-02-11 00:20:23,095 INFO 9453 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:20:23,097 INFO 9453 [egg-security] use csrf middleware
+2020-02-11 00:20:23,098 INFO 9453 [egg-security] use methodnoallow middleware
+2020-02-11 00:20:23,099 INFO 9453 [egg-security] use noopen middleware
+2020-02-11 00:20:23,103 INFO 9453 [egg-security] use nosniff middleware
+2020-02-11 00:20:23,103 INFO 9453 [egg-security] use xssProtection middleware
+2020-02-11 00:20:23,104 INFO 9453 [egg-security] use xframe middleware
+2020-02-11 00:20:23,104 INFO 9453 [egg-security] use dta middleware
+2020-02-11 00:20:23,104 INFO 9453 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:20:23,128 INFO 9453 [egg:core] dump config after load, 13ms
+2020-02-11 00:20:23,151 INFO 9453 [egg-watcher:application] watcher start success
+2020-02-11 00:20:23,185 INFO 9453 [egg:core] dump config after ready, 31ms
+2020-02-11 00:20:24,855 INFO 9470 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:20:24,899 INFO 9470 [egg-multipart] stream mode enable
+2020-02-11 00:20:24,993 INFO 9470 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:20:24,997 INFO 9470 [egg-security] use csrf middleware
+2020-02-11 00:20:24,997 INFO 9470 [egg-security] use methodnoallow middleware
+2020-02-11 00:20:24,998 INFO 9470 [egg-security] use noopen middleware
+2020-02-11 00:20:24,998 INFO 9470 [egg-security] use nosniff middleware
+2020-02-11 00:20:24,999 INFO 9470 [egg-security] use xssProtection middleware
+2020-02-11 00:20:24,999 INFO 9470 [egg-security] use xframe middleware
+2020-02-11 00:20:25,000 INFO 9470 [egg-security] use dta middleware
+2020-02-11 00:20:25,000 INFO 9470 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:20:25,015 INFO 9470 [egg:core] dump config after load, 6ms
+2020-02-11 00:20:25,045 INFO 9470 [egg-watcher:application] watcher start success
+2020-02-11 00:20:25,061 INFO 9470 [egg:core] dump config after ready, 13ms
+2020-02-11 00:20:31,439 INFO 9494 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:20:31,469 INFO 9494 [egg-multipart] stream mode enable
+2020-02-11 00:20:31,519 INFO 9494 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:20:31,521 INFO 9494 [egg-security] use csrf middleware
+2020-02-11 00:20:31,522 INFO 9494 [egg-security] use methodnoallow middleware
+2020-02-11 00:20:31,522 INFO 9494 [egg-security] use noopen middleware
+2020-02-11 00:20:31,523 INFO 9494 [egg-security] use nosniff middleware
+2020-02-11 00:20:31,523 INFO 9494 [egg-security] use xssProtection middleware
+2020-02-11 00:20:31,523 INFO 9494 [egg-security] use xframe middleware
+2020-02-11 00:20:31,523 INFO 9494 [egg-security] use dta middleware
+2020-02-11 00:20:31,523 INFO 9494 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:20:31,539 INFO 9494 [egg:core] dump config after load, 7ms
+2020-02-11 00:20:31,552 INFO 9494 [egg-watcher:application] watcher start success
+2020-02-11 00:20:31,563 INFO 9494 [egg:core] dump config after ready, 7ms
+2020-02-11 00:20:43,573 INFO 9532 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:20:43,641 INFO 9532 [egg-multipart] stream mode enable
+2020-02-11 00:20:43,735 INFO 9532 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:20:43,740 INFO 9532 [egg-security] use csrf middleware
+2020-02-11 00:20:43,741 INFO 9532 [egg-security] use methodnoallow middleware
+2020-02-11 00:20:43,742 INFO 9532 [egg-security] use noopen middleware
+2020-02-11 00:20:43,743 INFO 9532 [egg-security] use nosniff middleware
+2020-02-11 00:20:43,743 INFO 9532 [egg-security] use xssProtection middleware
+2020-02-11 00:20:43,744 INFO 9532 [egg-security] use xframe middleware
+2020-02-11 00:20:43,744 INFO 9532 [egg-security] use dta middleware
+2020-02-11 00:20:43,744 INFO 9532 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:20:43,767 INFO 9532 [egg:core] dump config after load, 11ms
+2020-02-11 00:20:43,784 INFO 9532 [egg-watcher:application] watcher start success
+2020-02-11 00:20:43,791 INFO 9532 [egg:core] dump config after ready, 4ms
+2020-02-11 00:21:21,611 INFO 9625 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:21:21,658 INFO 9625 [egg-multipart] stream mode enable
+2020-02-11 00:21:21,835 INFO 9625 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:21:21,838 INFO 9625 [egg-security] use csrf middleware
+2020-02-11 00:21:21,840 INFO 9625 [egg-security] use methodnoallow middleware
+2020-02-11 00:21:21,842 INFO 9625 [egg-security] use noopen middleware
+2020-02-11 00:21:21,844 INFO 9625 [egg-security] use nosniff middleware
+2020-02-11 00:21:21,846 INFO 9625 [egg-security] use xssProtection middleware
+2020-02-11 00:21:21,848 INFO 9625 [egg-security] use xframe middleware
+2020-02-11 00:21:21,849 INFO 9625 [egg-security] use dta middleware
+2020-02-11 00:21:21,849 INFO 9625 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:21:21,876 INFO 9625 [egg:core] dump config after load, 9ms
+2020-02-11 00:21:21,889 INFO 9625 [egg-watcher:application] watcher start success
+2020-02-11 00:21:21,896 INFO 9625 [egg:core] dump config after ready, 3ms
+2020-02-11 00:21:23,355 INFO 9636 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:21:23,402 INFO 9636 [egg-multipart] stream mode enable
+2020-02-11 00:21:23,477 INFO 9636 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:21:23,482 INFO 9636 [egg-security] use csrf middleware
+2020-02-11 00:21:23,482 INFO 9636 [egg-security] use methodnoallow middleware
+2020-02-11 00:21:23,483 INFO 9636 [egg-security] use noopen middleware
+2020-02-11 00:21:23,484 INFO 9636 [egg-security] use nosniff middleware
+2020-02-11 00:21:23,485 INFO 9636 [egg-security] use xssProtection middleware
+2020-02-11 00:21:23,485 INFO 9636 [egg-security] use xframe middleware
+2020-02-11 00:21:23,485 INFO 9636 [egg-security] use dta middleware
+2020-02-11 00:21:23,485 INFO 9636 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:21:23,522 INFO 9636 [egg:core] dump config after load, 20ms
+2020-02-11 00:21:23,540 INFO 9636 [egg-watcher:application] watcher start success
+2020-02-11 00:21:23,551 INFO 9636 [egg:core] dump config after ready, 4ms
+2020-02-11 00:28:13,933 INFO 10681 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:28:14,003 INFO 10681 [egg-multipart] stream mode enable
+2020-02-11 00:28:14,181 INFO 10681 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:28:14,186 INFO 10681 [egg-security] use csrf middleware
+2020-02-11 00:28:14,189 INFO 10681 [egg-security] use methodnoallow middleware
+2020-02-11 00:28:14,190 INFO 10681 [egg-security] use noopen middleware
+2020-02-11 00:28:14,193 INFO 10681 [egg-security] use nosniff middleware
+2020-02-11 00:28:14,195 INFO 10681 [egg-security] use xssProtection middleware
+2020-02-11 00:28:14,197 INFO 10681 [egg-security] use xframe middleware
+2020-02-11 00:28:14,198 INFO 10681 [egg-security] use dta middleware
+2020-02-11 00:28:14,198 INFO 10681 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:28:14,225 INFO 10681 [egg:core] dump config after load, 8ms
+2020-02-11 00:28:14,247 INFO 10681 [egg-watcher:application] watcher start success
+2020-02-11 00:28:14,255 INFO 10681 [egg:core] dump config after ready, 5ms
+2020-02-11 00:29:46,036 INFO 10887 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:29:46,087 INFO 10887 [egg-multipart] stream mode enable
+2020-02-11 00:29:46,259 INFO 10887 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:29:46,263 INFO 10887 [egg-security] use csrf middleware
+2020-02-11 00:29:46,265 INFO 10887 [egg-security] use methodnoallow middleware
+2020-02-11 00:29:46,267 INFO 10887 [egg-security] use noopen middleware
+2020-02-11 00:29:46,270 INFO 10887 [egg-security] use nosniff middleware
+2020-02-11 00:29:46,272 INFO 10887 [egg-security] use xssProtection middleware
+2020-02-11 00:29:46,274 INFO 10887 [egg-security] use xframe middleware
+2020-02-11 00:29:46,276 INFO 10887 [egg-security] use dta middleware
+2020-02-11 00:29:46,276 INFO 10887 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:29:46,299 INFO 10887 [egg:core] dump config after load, 5ms
+2020-02-11 00:29:46,321 INFO 10887 [egg-watcher:application] watcher start success
+2020-02-11 00:29:46,328 INFO 10887 [egg:core] dump config after ready, 4ms
+2020-02-11 00:30:09,175 INFO 11014 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:30:09,229 INFO 11014 [egg-multipart] stream mode enable
+2020-02-11 00:30:09,426 INFO 11014 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:30:09,431 INFO 11014 [egg-security] use csrf middleware
+2020-02-11 00:30:09,433 INFO 11014 [egg-security] use methodnoallow middleware
+2020-02-11 00:30:09,435 INFO 11014 [egg-security] use noopen middleware
+2020-02-11 00:30:09,438 INFO 11014 [egg-security] use nosniff middleware
+2020-02-11 00:30:09,440 INFO 11014 [egg-security] use xssProtection middleware
+2020-02-11 00:30:09,443 INFO 11014 [egg-security] use xframe middleware
+2020-02-11 00:30:09,444 INFO 11014 [egg-security] use dta middleware
+2020-02-11 00:30:09,444 INFO 11014 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:30:09,472 INFO 11014 [egg:core] dump config after load, 10ms
+2020-02-11 00:30:09,489 INFO 11014 [egg-watcher:application] watcher start success
+2020-02-11 00:30:09,497 INFO 11014 [egg:core] dump config after ready, 5ms
+2020-02-11 00:40:30,542 INFO 12376 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:40:30,590 INFO 12376 [egg-multipart] stream mode enable
+2020-02-11 00:40:30,749 INFO 12376 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:40:30,753 INFO 12376 [egg-security] use csrf middleware
+2020-02-11 00:40:30,755 INFO 12376 [egg-security] use methodnoallow middleware
+2020-02-11 00:40:30,757 INFO 12376 [egg-security] use noopen middleware
+2020-02-11 00:40:30,759 INFO 12376 [egg-security] use nosniff middleware
+2020-02-11 00:40:30,761 INFO 12376 [egg-security] use xssProtection middleware
+2020-02-11 00:40:30,763 INFO 12376 [egg-security] use xframe middleware
+2020-02-11 00:40:30,764 INFO 12376 [egg-security] use dta middleware
+2020-02-11 00:40:30,765 INFO 12376 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:40:30,799 INFO 12376 [egg:core] dump config after load, 14ms
+2020-02-11 00:40:30,812 INFO 12376 [egg-watcher:application] watcher start success
+2020-02-11 00:40:30,819 INFO 12376 [egg:core] dump config after ready, 5ms
+2020-02-11 00:40:55,731 INFO 12450 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:40:55,798 INFO 12450 [egg-multipart] stream mode enable
+2020-02-11 00:40:55,985 INFO 12450 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:40:55,989 INFO 12450 [egg-security] use csrf middleware
+2020-02-11 00:40:55,992 INFO 12450 [egg-security] use methodnoallow middleware
+2020-02-11 00:40:55,993 INFO 12450 [egg-security] use noopen middleware
+2020-02-11 00:40:55,996 INFO 12450 [egg-security] use nosniff middleware
+2020-02-11 00:40:56,000 INFO 12450 [egg-security] use xssProtection middleware
+2020-02-11 00:40:56,003 INFO 12450 [egg-security] use xframe middleware
+2020-02-11 00:40:56,004 INFO 12450 [egg-security] use dta middleware
+2020-02-11 00:40:56,004 INFO 12450 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:40:56,031 INFO 12450 [egg:core] dump config after load, 9ms
+2020-02-11 00:40:56,048 INFO 12450 [egg-watcher:application] watcher start success
+2020-02-11 00:40:56,054 INFO 12450 [egg:core] dump config after ready, 4ms
+2020-02-11 00:43:38,332 INFO 12901 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:43:38,375 INFO 12901 [egg-multipart] stream mode enable
+2020-02-11 00:43:38,568 INFO 12901 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:43:38,574 INFO 12901 [egg-security] use csrf middleware
+2020-02-11 00:43:38,576 INFO 12901 [egg-security] use methodnoallow middleware
+2020-02-11 00:43:38,578 INFO 12901 [egg-security] use noopen middleware
+2020-02-11 00:43:38,580 INFO 12901 [egg-security] use nosniff middleware
+2020-02-11 00:43:38,582 INFO 12901 [egg-security] use xssProtection middleware
+2020-02-11 00:43:38,584 INFO 12901 [egg-security] use xframe middleware
+2020-02-11 00:43:38,586 INFO 12901 [egg-security] use dta middleware
+2020-02-11 00:43:38,586 INFO 12901 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:43:38,615 INFO 12901 [egg:core] dump config after load, 11ms
+2020-02-11 00:43:38,630 INFO 12901 [egg-watcher:application] watcher start success
+2020-02-11 00:43:38,639 INFO 12901 [egg:core] dump config after ready, 7ms
+2020-02-11 00:43:47,077 INFO 12936 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:43:47,147 INFO 12936 [egg-multipart] stream mode enable
+2020-02-11 00:43:47,336 INFO 12936 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:43:47,341 INFO 12936 [egg-security] use csrf middleware
+2020-02-11 00:43:47,343 INFO 12936 [egg-security] use methodnoallow middleware
+2020-02-11 00:43:47,345 INFO 12936 [egg-security] use noopen middleware
+2020-02-11 00:43:47,347 INFO 12936 [egg-security] use nosniff middleware
+2020-02-11 00:43:47,348 INFO 12936 [egg-security] use xssProtection middleware
+2020-02-11 00:43:47,351 INFO 12936 [egg-security] use xframe middleware
+2020-02-11 00:43:47,353 INFO 12936 [egg-security] use dta middleware
+2020-02-11 00:43:47,353 INFO 12936 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:43:47,386 INFO 12936 [egg:core] dump config after load, 10ms
+2020-02-11 00:43:47,401 INFO 12936 [egg-watcher:application] watcher start success
+2020-02-11 00:43:47,409 INFO 12936 [egg:core] dump config after ready, 6ms
+2020-02-11 00:44:02,828 INFO 12980 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:44:03,004 INFO 12980 [egg-multipart] stream mode enable
+2020-02-11 00:44:03,207 INFO 12980 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:44:03,211 INFO 12980 [egg-security] use csrf middleware
+2020-02-11 00:44:03,213 INFO 12980 [egg-security] use methodnoallow middleware
+2020-02-11 00:44:03,215 INFO 12980 [egg-security] use noopen middleware
+2020-02-11 00:44:03,217 INFO 12980 [egg-security] use nosniff middleware
+2020-02-11 00:44:03,219 INFO 12980 [egg-security] use xssProtection middleware
+2020-02-11 00:44:03,222 INFO 12980 [egg-security] use xframe middleware
+2020-02-11 00:44:03,224 INFO 12980 [egg-security] use dta middleware
+2020-02-11 00:44:03,224 INFO 12980 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:44:03,265 INFO 12980 [egg:core] dump config after load, 22ms
+2020-02-11 00:44:03,291 INFO 12980 [egg-watcher:application] watcher start success
+2020-02-11 00:44:03,304 INFO 12980 [egg:core] dump config after ready, 8ms
+2020-02-11 00:45:09,934 INFO 13170 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-11 00:45:09,981 INFO 13170 [egg-multipart] stream mode enable
+2020-02-11 00:45:10,168 INFO 13170 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-11 00:45:10,173 INFO 13170 [egg-security] use csrf middleware
+2020-02-11 00:45:10,176 INFO 13170 [egg-security] use methodnoallow middleware
+2020-02-11 00:45:10,177 INFO 13170 [egg-security] use noopen middleware
+2020-02-11 00:45:10,180 INFO 13170 [egg-security] use nosniff middleware
+2020-02-11 00:45:10,181 INFO 13170 [egg-security] use xssProtection middleware
+2020-02-11 00:45:10,183 INFO 13170 [egg-security] use xframe middleware
+2020-02-11 00:45:10,185 INFO 13170 [egg-security] use dta middleware
+2020-02-11 00:45:10,185 INFO 13170 [egg-security] compose 7 middlewares into one security middleware
+2020-02-11 00:45:10,217 INFO 13170 [egg:core] dump config after load, 10ms
+2020-02-11 00:45:10,233 INFO 13170 [egg-watcher:application] watcher start success
+2020-02-11 00:45:10,239 INFO 13170 [egg:core] dump config after ready, 4ms

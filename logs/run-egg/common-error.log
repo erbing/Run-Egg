@@ -28,3 +28,108 @@ name: "ClusterClientNoResponseError"
 pid: 69573
 hostname: IRONMZHANG-MB0
 
+2020-02-11 00:42:08,600 ERROR 12450 [-/127.0.0.1/-/7ms GET /api/posts] nodejs.TypeError: this.success is not a function
+    at Object.exports.index (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:3:10)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12450
+hostname: IRONMZHANG-MB0
+
+2020-02-11 00:42:14,119 ERROR 12450 [-/127.0.0.1/-/4ms GET /api/posts/1] nodejs.TypeError: Cannot read property 'params' of undefined
+    at Object.exports.show (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:17:29)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12450
+hostname: IRONMZHANG-MB0
+
+2020-02-11 00:42:18,505 ERROR 12450 [-/127.0.0.1/-/1ms GET /api/posts] nodejs.TypeError: this.success is not a function
+    at Object.exports.index (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:3:10)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12450
+hostname: IRONMZHANG-MB0
+
+2020-02-11 00:43:48,116 ERROR 12936 [-/127.0.0.1/-/8ms GET /api/posts] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.exports.index (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:3:14)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12936
+hostname: IRONMZHANG-MB0
+
+2020-02-11 00:44:02,710 ERROR 12936 [-/127.0.0.1/-/1ms GET /api/posts] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.exports.index (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:3:14)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12936
+hostname: IRONMZHANG-MB0
+
+2020-02-11 00:44:03,976 ERROR 12980 [-/127.0.0.1/-/13ms GET /api/posts] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.exports.index (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:2:19)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12980
+hostname: IRONMZHANG-MB0
+
+2020-02-11 00:44:53,235 ERROR 12980 [-/127.0.0.1/-/1ms GET /api/posts] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Object.exports.index (/Users/zhangge/Desktop/code/Run-Egg/app/controller/posts.js:2:19)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangge/Desktop/code/Run-Egg/node_modules/koa-compose/index.js:36:12
+
+pid: 12980
+hostname: IRONMZHANG-MB0
+
