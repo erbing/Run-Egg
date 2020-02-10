@@ -1,5 +1,5 @@
-2020-02-08 16:41:58,702 INFO 69573 [egg-logrotator] agent logger reload: got log-reload message
-2020-02-09 11:55:05,575 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 62114232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-10 00:00:01,416 INFO 69573 [egg-logrotator] agent logger reload: got log-reload message
+2020-02-10 03:06:11,255 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 10823378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
@@ -9,7 +9,7 @@ name: "ClusterClientNoResponseError"
 pid: 69573
 hostname: IRONMZHANG-MB0
 
-2020-02-09 12:28:57,540 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 1991428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-10 08:44:07,350 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 20275000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
@@ -19,7 +19,7 @@ name: "ClusterClientNoResponseError"
 pid: 69573
 hostname: IRONMZHANG-MB0
 
-2020-02-09 19:02:43,199 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 8090162ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-10 13:57:37,368 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 1065283ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)

@@ -1,7 +1,6 @@
-2020-02-08 16:41:58,701 INFO 23773 [egg-logrotator] app logger reload: got log-reload message
-2020-02-09 11:55:05,061 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-09 12:28:57,554 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-09 19:02:43,255 WARN 23773 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
-2020-02-09 19:02:43,302 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-09 19:16:24,643 INFO 23773 [-/127.0.0.1/-/40ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
-2020-02-09 19:16:24,659 INFO 23773 [-/127.0.0.1/-/64ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-02-10 00:00:01,412 INFO 23773 [egg-logrotator] app logger reload: got log-reload message
+2020-02-10 03:06:11,168 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-10 08:44:07,334 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-10 13:07:03,916 INFO 23773 [-/127.0.0.1/-/20ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
+2020-02-10 13:07:03,932 INFO 23773 [-/127.0.0.1/-/44ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-02-10 13:57:37,241 WARN 23773 [ClusterClient:Watcher] follower closed, and try to init it again

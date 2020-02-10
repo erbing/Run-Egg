@@ -1,4 +1,4 @@
-2020-02-09 11:55:05,242 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 62114232ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-10 03:06:11,229 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 10823378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
@@ -8,7 +8,7 @@ name: "ClusterClientNoResponseError"
 pid: 69573
 hostname: IRONMZHANG-MB0
 
-2020-02-09 12:28:57,537 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 1991428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-10 08:44:07,333 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 20275000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
@@ -18,7 +18,7 @@ name: "ClusterClientNoResponseError"
 pid: 69573
 hostname: IRONMZHANG-MB0
 
-2020-02-09 19:02:43,187 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 8090162ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2020-02-10 13:57:37,303 ERROR 69573 nodejs.ClusterClientNoResponseError: client no response in 1065283ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
