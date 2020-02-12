@@ -64,3 +64,6 @@
 2020-02-11 00:45:09,980 INFO 13170 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-02-11 00:45:09,980 INFO 13170 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-02-11 00:45:09,980 INFO 13170 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-11 12:36:42,964 INFO 13170 [Job#15813958027574155091062004881] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-02-11 12:36:42,857 INFO 7656 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 57197187ms at 2020-02-12 04:30:00.038
+2020-02-11 12:36:43,167 INFO 13170 [Job#15813958027574155091062004881] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 168ms

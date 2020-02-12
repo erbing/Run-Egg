@@ -284,3 +284,13 @@
 2020-02-11 00:45:10,217 INFO 13170 [egg:core] dump config after load, 10ms
 2020-02-11 00:45:10,233 INFO 13170 [egg-watcher:application] watcher start success
 2020-02-11 00:45:10,239 INFO 13170 [egg:core] dump config after ready, 4ms
+2020-02-11 08:56:05,372 WARN 13170 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-11 12:36:43,055 INFO 13170 [-/127.0.0.1/-/48ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
+2020-02-11 12:36:43,167 INFO 13170 [-/127.0.0.1/-/168ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-02-11 13:13:16,281 WARN 13170 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-11 15:00:03,297 WARN 13170 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-02-11 15:00:03,305 WARN 13170 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-11 20:43:29,337 WARN 13170 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-12 08:28:47,946 WARN 13170 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-12 08:56:20,697 WARN 13170 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-02-12 08:56:20,706 WARN 13170 [ClusterClient:Watcher] follower closed, and try to init it again
