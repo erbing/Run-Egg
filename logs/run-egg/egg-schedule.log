@@ -1,3 +1,0 @@
-2020-02-19 18:00:19,081 INFO 2922 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37780943ms at 2020-02-20 04:30:00.023
-2020-02-19 18:00:19,110 INFO 2933 [Job#15821064190311644057053316412] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
-2020-02-19 18:00:19,186 INFO 2933 [Job#15821064190311644057053316412] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 71ms
