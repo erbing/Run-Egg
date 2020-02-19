@@ -1,17 +1,4 @@
-2020-02-16 00:00:05,639 INFO 76414 [egg-logrotator] app logger reload: got log-reload message
-2020-02-16 04:30:04,740 INFO 76414 [-/127.0.0.1/-/19ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
-2020-02-16 04:30:04,756 INFO 76414 [-/127.0.0.1/-/35ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
-2020-02-17 11:22:10,043 INFO 2933 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-02-17 11:22:10,093 INFO 2933 [egg-multipart] stream mode enable
-2020-02-17 11:22:10,242 INFO 2933 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
-2020-02-17 11:22:10,249 INFO 2933 [egg-security] use csrf middleware
-2020-02-17 11:22:10,252 INFO 2933 [egg-security] use methodnoallow middleware
-2020-02-17 11:22:10,254 INFO 2933 [egg-security] use noopen middleware
-2020-02-17 11:22:10,256 INFO 2933 [egg-security] use nosniff middleware
-2020-02-17 11:22:10,258 INFO 2933 [egg-security] use xssProtection middleware
-2020-02-17 11:22:10,260 INFO 2933 [egg-security] use xframe middleware
-2020-02-17 11:22:10,262 INFO 2933 [egg-security] use dta middleware
-2020-02-17 11:22:10,262 INFO 2933 [egg-security] compose 7 middlewares into one security middleware
-2020-02-17 11:22:10,292 INFO 2933 [egg:core] dump config after load, 11ms
-2020-02-17 11:22:10,311 INFO 2933 [egg-watcher:application] watcher start success
-2020-02-17 11:22:10,318 INFO 2933 [egg:core] dump config after ready, 4ms
+2020-02-19 14:21:57,929 INFO 2933 [egg-logrotator] app logger reload: got log-reload message
+2020-02-19 18:00:19,168 INFO 2933 [-/127.0.0.1/-/38ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
+2020-02-19 18:00:19,186 INFO 2933 [-/127.0.0.1/-/71ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-02-19 21:21:18,927 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again

@@ -1,11 +1,11 @@
-2020-02-16 00:00:05,658 INFO 7656 [egg-logrotator] agent logger reload: got log-reload message
-2020-02-17 11:22:07,527 INFO 2922 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
-2020-02-17 11:22:07,546 INFO 2922 [egg:core] dump config after load, 8ms
-2020-02-17 11:22:07,674 INFO 2922 [egg-watcher] Start watching: ["/Users/zhangge/Desktop/code/Run-Egg/app","/Users/zhangge/Desktop/code/Run-Egg/config","/Users/zhangge/Desktop/code/Run-Egg/mocks","/Users/zhangge/Desktop/code/Run-Egg/mocks_proxy","/Users/zhangge/Desktop/code/Run-Egg/app.js"]
-2020-02-17 11:22:07,674 INFO 2922 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/app"
-2020-02-17 11:22:07,675 INFO 2922 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/config"
-2020-02-17 11:22:07,676 INFO 2922 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/mocks"
-2020-02-17 11:22:07,676 INFO 2922 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/mocks_proxy"
-2020-02-17 11:22:07,676 INFO 2922 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/app.js"
-2020-02-17 11:22:07,682 INFO 2922 [egg-watcher:agent] watcher start success
-2020-02-17 11:22:07,731 INFO 2922 [egg:core] dump config after ready, 7ms
+2020-02-19 14:21:57,986 INFO 2922 [egg-logrotator] agent logger reload: got log-reload message
+2020-02-19 21:21:18,929 ERROR 2922 nodejs.ClusterClientNoResponseError: client no response in 175871ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 2922
+hostname: IRONMZHANG-MB0
+
