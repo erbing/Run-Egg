@@ -1,1 +1,5 @@
 2020-02-20 00:03:12,756 INFO 2933 [egg-logrotator] app logger reload: got log-reload message
+2020-02-20 03:56:38,668 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-20 08:59:05,873 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-20 10:23:13,069 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-20 10:48:44,957 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
