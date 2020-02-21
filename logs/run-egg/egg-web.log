@@ -3,3 +3,6 @@
 2020-02-20 08:59:05,873 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
 2020-02-20 10:23:13,069 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
 2020-02-20 10:48:44,957 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-20 12:08:38,938 INFO 2933 [-/127.0.0.1/-/27ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
+2020-02-20 12:08:38,978 INFO 2933 [-/127.0.0.1/-/81ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-02-20 15:16:30,859 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
