@@ -49,3 +49,13 @@ name: "ClusterClientNoResponseError"
 pid: 2922
 hostname: IRONMZHANG-MB0
 
+2020-02-24 13:47:18,080 INFO 25395 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-02-24 13:47:18,104 INFO 25395 [egg:core] dump config after load, 11ms
+2020-02-24 13:47:18,212 INFO 25395 [egg-watcher] Start watching: ["/Users/zhangge/Desktop/code/Run-Egg/app","/Users/zhangge/Desktop/code/Run-Egg/config","/Users/zhangge/Desktop/code/Run-Egg/mocks","/Users/zhangge/Desktop/code/Run-Egg/mocks_proxy","/Users/zhangge/Desktop/code/Run-Egg/app.js"]
+2020-02-24 13:47:18,212 INFO 25395 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/app"
+2020-02-24 13:47:18,213 INFO 25395 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/config"
+2020-02-24 13:47:18,213 INFO 25395 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/mocks"
+2020-02-24 13:47:18,213 INFO 25395 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/mocks_proxy"
+2020-02-24 13:47:18,213 INFO 25395 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/app.js"
+2020-02-24 13:47:18,216 INFO 25395 [egg-watcher:agent] watcher start success
+2020-02-24 13:47:18,231 INFO 25395 [egg:core] dump config after ready, 6ms

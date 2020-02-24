@@ -6,3 +6,17 @@
 2020-02-20 12:08:38,938 INFO 2933 [-/127.0.0.1/-/27ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
 2020-02-20 12:08:38,978 INFO 2933 [-/127.0.0.1/-/81ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
 2020-02-20 15:16:30,859 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-24 13:47:19,694 INFO 25401 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-24 13:47:19,736 INFO 25401 [egg-multipart] stream mode enable
+2020-02-24 13:47:19,929 INFO 25401 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
+2020-02-24 13:47:19,934 INFO 25401 [egg-security] use csrf middleware
+2020-02-24 13:47:19,936 INFO 25401 [egg-security] use methodnoallow middleware
+2020-02-24 13:47:19,937 INFO 25401 [egg-security] use noopen middleware
+2020-02-24 13:47:19,939 INFO 25401 [egg-security] use nosniff middleware
+2020-02-24 13:47:19,941 INFO 25401 [egg-security] use xssProtection middleware
+2020-02-24 13:47:19,943 INFO 25401 [egg-security] use xframe middleware
+2020-02-24 13:47:19,945 INFO 25401 [egg-security] use dta middleware
+2020-02-24 13:47:19,945 INFO 25401 [egg-security] compose 7 middlewares into one security middleware
+2020-02-24 13:47:19,973 INFO 25401 [egg:core] dump config after load, 10ms
+2020-02-24 13:47:20,000 INFO 25401 [egg-watcher:application] watcher start success
+2020-02-24 13:47:20,007 INFO 25401 [egg:core] dump config after ready, 5ms

@@ -1,3 +1,9 @@
 2020-02-20 12:08:38,834 INFO 2922 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 58881242ms at 2020-02-21 04:30:00.071
 2020-02-20 12:08:38,878 INFO 2933 [Job#15821717187282021867098920663] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
 2020-02-20 12:08:38,979 INFO 2933 [Job#15821717187282021867098920663] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 81ms
+2020-02-24 13:47:20,017 INFO 25395 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52959988ms at 2020-02-25 04:30:00.005
+2020-02-24 13:47:20,018 INFO 25395 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 36759983ms at 2020-02-25 00:00:00.001
+2020-02-24 13:47:20,019 INFO 25395 [Timer] /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36760982ms at 2020-02-25 00:00:01.001
+2020-02-24 13:47:19,734 INFO 25401 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-24 13:47:19,734 INFO 25401 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-24 13:47:19,734 INFO 25401 [egg-schedule]: register schedule /Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
