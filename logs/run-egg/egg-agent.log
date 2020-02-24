@@ -59,3 +59,13 @@ hostname: IRONMZHANG-MB0
 2020-02-24 13:47:18,213 INFO 25395 [egg-watcher] Start watching: "/Users/zhangge/Desktop/code/Run-Egg/app.js"
 2020-02-24 13:47:18,216 INFO 25395 [egg-watcher:agent] watcher start success
 2020-02-24 13:47:18,231 INFO 25395 [egg:core] dump config after ready, 6ms
+2020-02-24 14:13:48,090 ERROR 25395 nodejs.ClusterClientNoResponseError: client no response in 927857ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zhangge/Desktop/code/Run-Egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 25395
+hostname: IRONMZHANG-MB0
+
