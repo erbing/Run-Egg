@@ -1,37 +1,23 @@
-2020-02-20 00:03:12,756 INFO 2933 [egg-logrotator] app logger reload: got log-reload message
-2020-02-20 03:56:38,668 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-20 08:59:05,873 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-20 10:23:13,069 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-20 10:48:44,957 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-20 12:08:38,938 INFO 2933 [-/127.0.0.1/-/27ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/3v/b33nmr9s659158fdpm2cblbh0000gn/T/egg-multipart-tmp/Run-Egg"
-2020-02-20 12:08:38,978 INFO 2933 [-/127.0.0.1/-/81ms SCHEDULE /__schedule?path=/Users/zhangge/Desktop/code/Run-Egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
-2020-02-20 15:16:30,859 WARN 2933 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-02-24 13:47:19,694 INFO 25401 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-02-24 13:47:19,736 INFO 25401 [egg-multipart] stream mode enable
-2020-02-24 13:47:19,929 INFO 25401 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
-2020-02-24 13:47:19,934 INFO 25401 [egg-security] use csrf middleware
-2020-02-24 13:47:19,936 INFO 25401 [egg-security] use methodnoallow middleware
-2020-02-24 13:47:19,937 INFO 25401 [egg-security] use noopen middleware
-2020-02-24 13:47:19,939 INFO 25401 [egg-security] use nosniff middleware
-2020-02-24 13:47:19,941 INFO 25401 [egg-security] use xssProtection middleware
-2020-02-24 13:47:19,943 INFO 25401 [egg-security] use xframe middleware
-2020-02-24 13:47:19,945 INFO 25401 [egg-security] use dta middleware
-2020-02-24 13:47:19,945 INFO 25401 [egg-security] compose 7 middlewares into one security middleware
-2020-02-24 13:47:19,973 INFO 25401 [egg:core] dump config after load, 10ms
-2020-02-24 13:47:20,000 INFO 25401 [egg-watcher:application] watcher start success
-2020-02-24 13:47:20,007 INFO 25401 [egg:core] dump config after ready, 5ms
-2020-02-24 14:13:48,085 WARN 25401 [ClusterClient:Watcher] follower closed, and try to init it again
-2020-03-04 22:55:14,638 INFO 27175 [egg:logger] init all loggers with options: {"dir":"/Users/zhangge/Desktop/code/Run-Egg/logs/Run-Egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Run-Egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
-2020-03-04 22:55:14,672 INFO 27175 [egg-multipart] stream mode enable
-2020-03-04 22:55:14,879 INFO 27175 [egg-static] starting static serve /public/ -> /Users/zhangge/Desktop/code/Run-Egg/app/public
-2020-03-04 22:55:14,883 INFO 27175 [egg-security] use csrf middleware
-2020-03-04 22:55:14,886 INFO 27175 [egg-security] use methodnoallow middleware
-2020-03-04 22:55:14,889 INFO 27175 [egg-security] use noopen middleware
-2020-03-04 22:55:14,891 INFO 27175 [egg-security] use nosniff middleware
-2020-03-04 22:55:14,893 INFO 27175 [egg-security] use xssProtection middleware
-2020-03-04 22:55:14,895 INFO 27175 [egg-security] use xframe middleware
-2020-03-04 22:55:14,897 INFO 27175 [egg-security] use dta middleware
-2020-03-04 22:55:14,897 INFO 27175 [egg-security] compose 7 middlewares into one security middleware
-2020-03-04 22:55:14,930 INFO 27175 [egg:core] dump config after load, 10ms
-2020-03-04 22:55:14,946 INFO 27175 [egg-watcher:application] watcher start success
-2020-03-04 22:55:14,956 INFO 27175 [egg:core] dump config after ready, 6ms
+2020-03-21 18:35:41,754 INFO 27175 [egg-logrotator] app logger reload: got log-reload message
+2020-03-21 19:09:52,388 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-21 19:21:50,195 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-21 21:09:57,046 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-21 23:01:05,443 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 01:12:46,478 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 03:24:21,659 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 05:24:57,132 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 07:26:12,360 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 09:26:47,540 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 11:23:01,968 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 13:30:52,305 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-22 22:18:28,415 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-23 17:04:06,202 WARN 27175 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-23 17:04:06,208 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-24 00:49:44,384 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-24 17:05:32,221 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-24 22:51:10,140 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-25 00:51:48,395 WARN 27175 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-25 00:51:48,407 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-25 22:37:25,935 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-26 17:08:04,105 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-26 22:24:35,195 WARN 27175 [ClusterClient:Watcher] follower closed, and try to init it again
